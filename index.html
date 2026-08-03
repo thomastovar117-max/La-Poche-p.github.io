@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Poche</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./static/css/boost.css">
+</head>
+<body>
+    <!-- Menu Principal -->
+    <nav class="navbar navbar-expand-lg  navbar-primary bg-primary fixed-top">
+    <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#inicio"><img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> La Poche
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#inicio">Inicio</a></li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#servicios">Servicios</a></li>
+        <li class="nav-item text-white"><a class="nav-link text-white" href="#testimonios">Testimonios</a></li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#menu">Menú</a></li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#ubicacion">Ubicación</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tu cuenta 
+          </a>
+          <ul class="dropdown-menu bd-danger ">
+            <li><a class="dropdown-item" href="./templates/InicioP.html">Inicio de sesion</a></li>
+            <li><a class="dropdown-item" href="./templates/RegistrarseP.html">Registrese</a></li>
+            <li><a class="dropdown-item" href="./templates/contacto.html">Contacto</a></li>
+            <li><a class="dropdown-item" href="./templates/personal.html">Personal</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Sección de inicio -->
+<section id="inicio" class="py-5 bg-info rounded-4">
+  <div class="container">
+    <h1 class="text-center mb-4">
+      <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Bienvenidos a La Poche
+    </h1>
+    <div class="row">
+      <!-- Lema 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card p-3 shadow">
+          <p class="text-dark">
+            <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Sumérgete en una experiencia gastronómica única donde cada bocado te transportará a las profundidades del mar y el río. 
+            En nuestro restaurante, solo servimos lo mejor en pescados y mariscos, garantizando frescura y sabor incomparables en cada plato.
+          </p>
+        </div>
+      </div>
+      <!-- Lema 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card p-3 shadow">
+          <p class="text-dark">
+            <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> ¿Te encantan los buenos pescados y la comida típica? Entonces has llegado al lugar indicado. 
+            Celebramos la abundancia gastronómica de Colombia con una variedad de platos que harán las delicias de cualquier aficionado a las sopas, pescados y mariscos.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center mb-4 bg-white rounded-4 p-4">
+  <div class="col-md-4">
+    <i class="bi bi-basket-fill fs-1 text-primary"></i>
+    <h5>
+      <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Productos frescos</h5>
+    <p>Seleccionamos diariamente los mejores productos del mar.</p>
+  </div>
+  <div class="col-md-4">
+    <i class="bi bi-bookmark-star fs-1 text-primary"></i>
+    <h5><img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Recetas únicas</h5>
+    <p>Combinamos tradición y sabor en cada plato.</p>
+  </div>
+  <div class="col-md-4">
+    <i class="bi bi-people fs-1 text-primary"></i>
+    <h5><img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Ambiente familiar</h5>
+    <p>Un lugar acogedor para compartir momentos especiales.</p>
+  </div>
+</div>
+    <!-- Especialidades -->
+    <h3 class="text-center text-dark mb-4"> <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Especialidades de la carta</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://pescaderialapoche.com/wp-content/uploads/2024/05/CAZULES.jpg" class="card-img-top" alt="Cazuela de la Casa"  width="600" height="400">
+          <div class="card-body text-center">
+            <h5 class="card-title"><img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Cazuela de la Casa</h5>
+            <p class="text-muted">Plato tradicional del país con ingredientes de nuestros cocineros, así llamado cazuela de la casa.</p>
+            <p class="text-muted">No solo este plato, sino muchos más en nuestra carta.</p>
+            <h4 class="text-success">$70.000</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.YEz8ewfQ5Mjxl4725ccFuQHaHa" class="card-img-top" alt="Pasta de la Casa" width="600" height="400">
+          <div class="card-body text-center">
+            <h5 class="card-title"> <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Pasta de la Casa</h5>
+            <p class="text-muted">Plato único con un toque especial de nuestros cocineros para deleitar a nuestros clientes.</p>
+            <p class="text-muted">No solo este plato, sino muchos más en nuestra carta.</p>
+            <h4 class="text-success">$48.000</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.ialkn_HQ-g2M8PChh0H0sQHaHa" class="card-img-top" alt="Mojarra" width="600" height="400">
+          <div class="card-body text-center">
+            <h5 class="card-title"><img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Mojarra</h5>
+            <p class="text-muted">Plato tradicional del país con ingredientes frescos preparados por nuestros cocineros.</p>
+            <p class="text-muted">No solo este plato, sino muchos más en nuestra carta.</p>
+            <h4 class="text-success">$41.000</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Seccion de cards servicios -->
+<section id="servicios" class="py-5 bg-light rounded-4">
+  <div class="container">
+    <h2 class="text-center mb-4">
+      <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Nuestros Servicios 
+    </h2>
+    <div class="row g-4">
+      <!-- Servicio 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.EXnPPkjHljC_fRtG0PF5HAHaJ4" 
+              class="card-img-top" alt="Atención al cliente en restaurante" width="600" height="400">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+                  alt="Logo La Poche" width="30" height="24"> Atención a Clientes
+            </h5>
+            <p class="card-text">En nuestro restaurante todos son bienvenidos: solos, en pareja o en familia (4 a 10 personas o más). Siempre recibirán la mejor atención y disfrutarán de nuestros platos.</p>
+            <a href="#" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <!-- Servicio 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/588324981_1447233204076482_5508323720030879038_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s1000x1000&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHt6ljN9LDCY4LNvEszzmmiWmqyJYbO5cZaarIlhs7lxo_02uykKTz-7-e7spDRX3dNA9AmIzo40nncXkenhBdi&_nc_ohc=ooctEMsaXOAQ7kNvwHc6Fjk&_nc_oc=Adpap3OWadQccjK2Ni1D0EK2JV6JEfeL-gnG8WZM3_NyoMl_XkiyKXbNAziUSXyD5-M&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=_Pp1h1_k9NoayM-ZVtARew&_nc_ss=7b2a8&oh=00_AQGP5QbJoUzM-6iARvOyQoEYWQ9x4JyJsihsta6fx9Q89A&oe=6A72D650" 
+              class="card-img-top" alt="Foto de punto físico La Poche" width="600" height="400">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+                  alt="Logo La Poche" width="30" height="24"> Puntos Físicos
+            </h5>
+            <p class="card-text">Tenemos 3 puntos físicos en Bogotá para que tú y tu familia elijan el más cercano y disfruten de un buen rato.</p>
+            <a href="#social-iconss" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <!-- Servicio 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/558710247_1399447958855007_3652467012692588204_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s1080x1350&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGPBeAVq5VWHUXDwds0_VjSpy-FJXJoXainL4UlcmhdqM5hCSUcluv8fE8FF4JdbrmxQ6CfOQDyaRRhQT0nNGHH&_nc_ohc=aKASRJ_a6G4Q7kNvwHY2PdO&_nc_oc=AdpJCLg9bYyyEuLBHyOUd3IG9Llm3cZtSTji2b_ramrJuS4gMDlMjVLlYH-uEouU7iU&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=egvF_TCVuiI8XWBtdoAWkQ&_nc_ss=7b2a8&oh=00_AQGw1lHWBnAoHTsUxKfWiQaQd7YPjctarFLUREU5xgE9Ng&oe=6A72C388" class="card-img-top" 
+              alt="Plato único de La Poche" width="600" height="400">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+                  alt="Logo La Poche" width="30" height="24"> Platos Únicos y Exquisitos
+            </h5>
+            <p class="card-text">Ofrecemos platos tradicionales con ingredientes frescos y combinaciones únicas que deleitan a nuestros clientes.</p>
+            <a href="https://www.instagram.com/stories/highlights/18089697787849964/" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Seccion testimonios -->
+</section>
+<section id="testimonios" class="py-5 bg-info text-dark rounded-4">
+  <div class="container">
+    <h2 class="mb-4 text-center"><img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Testimonios</h2>
+    <div class="row g-4">  
+      <!-- Testimonio 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow rounded-4">
+          <div class="card-body text-center">
+            <h5 class="text-warning">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </h5>
+            <h5>Apareció una cucaracha</h5>
+            <p>"La comida es buena, los platos son ricos, hasta que en una sopa me salió una cucaracha, nunca volví allá"</p>
+            <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32">
+          </div>
+          <div class="card-footer text-center">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/de/0a/default-avatar-2020-35.jpg" alt="Angie M" width="46" height="40" class="rounded-circle">
+            <strong> Angie M</strong>
+            <a href="https://www.tripadvisor.co/ShowUserReviews-g294074-d17377541-r869149944-La_Poche_Pescaderia-Bogota.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonio 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow rounded-4">
+          <div class="card-body text-center">
+            <h5 class="text-warning">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </h5>
+            <h5>Excelente atención y la comida deliciosa.</h5>
+            <p>"La comida estaba deliciosa, el servicio fue muy rápido y el personal es realmente muy atento y servicial. Los precios son adecuados."</p>
+            <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32">
+          </div>
+          <div class="card-footer text-center">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-l/06/a8/9f/b5/amvillamizar.jpg" alt="amvillamizar" width="46" height="40" class="rounded-circle">
+            <strong> amvillamizar</strong>
+            <a href="https://www.tripadvisor.co/ShowUserReviews-g294074-d17377541-r844980483-La_Poche_Pescaderia-Bogota.html" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonio 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow rounded-4">
+          <div class="card-body text-center">
+            <h5 class="text-warning">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </h5>
+            <h5>Un clásico del sur de Bogotá</h5>
+            <p>"Un clásico del sur de Bogotá, que rico encontrar el mismo nivel de variedad, alta calidad, muy cerca del centro comercial plaza de las Américas. Qué bueno volver a encontrar la Poche, más de 20 años sin ir! delicioso!"</p>
+            <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32">
+          </div>
+          <div class="card-footer text-center">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/de/0a/default-avatar-2020-35.jpg" alt="Fidel C" width="46" height="40" class="rounded-circle">
+            <strong> Fidel C</strong>
+            <a href="https://www.tripadvisor.co/ShowUserReviews-g294074-d17377541-r825018004-La_Poche_Pescaderia-Bogota.html" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Carrusel de imagenes -->
+<section id="menu" class="py-5 bg-white text-dark">
+      <h2 class="mb-4 text-center"><img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Menú</h2>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Menu 1 -->
+    <div class="carousel-item active" rounded-5>
+      <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/619670065_1501567318643070_6115950380934103724_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x856&ctp=s1280x856&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFGKUwiZtn76NJZNAMXKB8uraWxk91AwHqtpbGT3UDAelb2QgX5dxgkHh75M-IUqGXPpLxwKlqXv6k4WYNK9Mhw&_nc_ohc=1d6k-SoJdfkQ7kNvwHxaT5i&_nc_oc=Adru6BzR40ekTjNXjvtgx_pCT18jgrup0vVT9fOvNe4nU9NLULU6FzM1iOcF1SqdxOk&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=Z36yRrpTv59izF5QjOYaHg&_nc_ss=7b2a8&oh=00_AQE-V2PSaYyYgdssBaNB3KxmmGuy0Dmunh-4mHhQTFQG2A&oe=6A73390D" class="d-block w-100" alt="Pagina 1" width="1000" height="1200">
+    </div>
+    <!-- Menu 2 -->
+    <div class="carousel-item"rounded-5>
+      <img src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/622522257_1501567398643062_7211365398720592025_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x846&ctp=s1280x846&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHFZzjnU-OaFq0luKsskoan26rJyD7A1TLbqsnIPsDVMv8P8mYpdgvbFU9iEEorGF73yP7Gk_DeTEpKT7v1JTtf&_nc_ohc=tn2O8zpM2CIQ7kNvwF4__Od&_nc_oc=AdqtCyAJlZuHjNB00SImMcqZ-V9j53KuCQzYOXAuE1yJYi5TI3Wgwoqn5UCP1PEN_5M&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=PZCkNHh1Abl3L8flysCQiQ&_nc_ss=7b2a8&oh=00_AQEopiKG1NgOWkmpD4xTiDmtgeGvdFY7AYVc26FJC7McEQ&oe=6A735693" class="d-block w-100" alt="Pagina 2" width="1000" height="1200">
+    </div>
+    <!-- Menu 3 -->
+    <div class="carousel-item"rounded-5>
+      <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/622372753_1501567345309734_6994147479130888687_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x850&ctp=s1280x850&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG8R22twFb0otmKPE8ji8AL940Pb_BN2N33jQ9v8E3Y3YM7bAIXrGiQ0LrQUPgV9bmezrYYFUf_YvebuimwggxO&_nc_ohc=2crzQid1rCoQ7kNvwHS7Hxe&_nc_oc=Adpz4H_nBnPOEhiXKAlR79SW1jnUfV99FZHNdGV9p2thWvDAIwWN0dg0QXvpyoxIfeU&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=ttz_QrO2bbZaim5AXbJVGw&_nc_ss=7b2a8&oh=00_AQEi-rUN_NcXuG6R3oG5pHovZAV6Ec9gpvk2geYOme9VPA&oe=6A7361AB" class="d-block w-100" alt="Pagina 3" width="1000" height="1200">
+    </div>
+    <!-- Menu 4 -->
+    <div class="carousel-item"rounded-5>
+      <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/622249820_1501567341976401_8637795668160683403_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x855&ctp=s1280x855&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE_9ZQB_MelPI21bKpYKZ94kqir03SXWwuSqKvTdJdbC2pXKASFdWoaiE9gGmDcsIZOZwJ_VsI-S6FSK8e2gwQw&_nc_ohc=9R5v1ewQvDsQ7kNvwHljRHL&_nc_oc=Adr2pTHmcz1pQA0y5r1HadlU-VSCg17b15OSuergbx84y2K_tT0RFFpWwmFNUG11jHY&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=XPBwyoHiPOgGGjq-F0oCow&_nc_ss=7b2a8&oh=00_AQFvW4qQ27egfQN7Ka6rRZiln7zIxfjubgGMSKNtC94WVg&oe=6A73524F" class="d-block w-100" alt="Pagina 4" width="1000" height="1200">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<!-- Clientes -->
+<section class="py-5 bg-info opacity-100 rounded-4">
+    <div class="container">
+        <h2 class="mb-4 text-center">
+          <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Nuestros Clientes
+        </h2>
+        <div class="marquee">
+            <div class="marquee-content d-flex align-items-center">
+                <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t1.6435-9/61886023_10157232480712801_5901105689689849856_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s1200x1200&_nc_cat=111&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeF8BfXDSpalYf-ITDFlb1OmKmijhd5Sh5UqaKOF3lKHlXSp14peDRm9Ip__DKKY753MbPQ5pNzfxobcs-DHtIT8&_nc_ohc=HUKPEcvZpzQQ7kNvwFjE_er&_nc_oc=AdqtEm2Nyv9UfpepBTnE9Ep0_2WaeXbK-H5ZfJwgVel0VO3AQvjei9XRfsbTKnWPDzU&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=tLLLQBlHjxLveYeEhJR2hw&_nc_ss=7b2a8&oh=00_AQHcr2Spmfbb9_AAFFQs_vaqoKxFdzNN5EL4lnQJOrT9HQ&oe=6A961BA8" alt="" class="mx-5" height="150">
+                <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/612171547_1483719777094491_3690087535672141553_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s1200x1200&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEU-agtThQcR5J7iW_AfC4rs-mDZLCYVEKz6YNksJhUQqpWC6Eb4XwFWK4o3HrENL5oFbEOPXFM4WL5vEpA4xTT&_nc_ohc=R2k23rJKFqgQ7kNvwE_SWSr&_nc_oc=Ado0ZP2RCxZPsYMAERdzO9ru45qz0LhAI4HmatE4nae87hwaIvk3OAmsngY9kKQN-uo&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=O7166pEotbUu9aDdlU5zgw&_nc_ss=7b2a8&oh=00_AQFr2VipJfFpWybAwTnQRAZw_pjRMba5sDFIEGHKeNn4xA&oe=6A7358E6" alt="" class="mx-5" height="150">
+                <img src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/595449644_1460310509435418_8836521388614878857_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s1600x1200&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzaoFlMkFZOhqPyxjuRNL4HDX-x3IsLGQcNf7HciwsZFEbqCviAbkAmRV0PQeh9UZS_Hj-vQyhK4gafdgnFJTp&_nc_ohc=t85YEC87eN4Q7kNvwEZjZc9&_nc_oc=AdoDNs_QhRtlBuAnxu8JfX4GOEvOHMUUMna5TP-B3WaYaeeQbsYC2BKreCa07vZ_cmQ&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=1PB0vq861eLx7AvP8H0UUA&_nc_ss=7b2a8&oh=00_AQERMTA04Zl0RJhjj736PDUzSPta7FTC3cA9_HH2j1xbAQ&oe=6A7370AB" alt="" class="mx-5" height="150">
+                <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t1.6435-9/46505801_10156776647172801_4654618636072255488_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x750&ctp=s1000x750&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHA1zYJE-_1mGJdUQeDMcIzfVWD8UHdn3N9VYPxQd2fcwZfRHJJ8Aftn5If0JHGk_Y_6LCCCEgM0GzctUp8RYtt&_nc_ohc=3HJf8b9FwmkQ7kNvwE0gVXw&_nc_oc=Ado-aRk1fGdgUCR4gGr80z9mtxyL8o0A8Ew3sg5b8jWvcP1d_o2fEAySQ7tNlwQC4vk&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=2alw64hgi9J1tyN9v2OGXA&_nc_ss=7b2a8&oh=00_AQEV7ZuqLZ1kmudGDwbQ95aGy6-YnUqW3ampLVIa7sNW8g&oe=6A9627D2" alt="" class="mx-5" height="150">
+                <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t1.6435-9/62256019_10157240139257801_1843777950630019072_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s1200x1200&_nc_cat=111&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeFdbwFZLPco7cTmmGQyk30vdv15nUbgOZN2_XmdRuA5k7ZsZj2_MwWDf44V3JTEiQjkKHMir8tvg7a-ibDdYpTW&_nc_ohc=xe5htzg2KCkQ7kNvwFZm3yZ&_nc_oc=AdptdZuWlgIvxdpbDxMGyO-5cOLAe7VXsQWLkohV4VO6KLO1yhnm3n0VxbqwztER4fU&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=MpMD3bzRW3FeRjj1-qmhkA&_nc_ss=7b2a8&oh=00_AQEOhpr3KqVV8oKmn8L2VLW7Sit3l0g_KuljKbc7kyZ_mQ&oe=6A962745" alt="" class="mx-5" height="150">
+                <!-- duplicar -->
+                <img src="https://scontent-bog2-1.xx.fbcdn.net/v/t1.6435-9/66211534_10157319911047801_9192621230656585728_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s1200x1200&_nc_cat=105&ccb=1-7&_nc_sid=cf85f3&_nc_eui2=AeF3izaEUMHlEgNek6akQ_mzNby8ckR2JX01vLxyRHYlfSAiJ3uaUkhEIN1rERYf8NUbuPKtIlYDQnHNOPsAnqPX&_nc_ohc=1NGT4-1iIDEQ7kNvwHvLHFD&_nc_oc=AdphoLUjGu3xXk1lOJSiXh9zbXweA_OnA_4qqmk1B9VRowv4hlL2CfiDWGMWXQI04XA&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=SnJQ85NmCMxFE0yM3A86Lw&_nc_ss=7b2a8&oh=00_AQE3_hpcflrP8fVif_NCIOApqxzzhs__Qicx-cZufqEfsg&oe=6A96167B" alt="" class="mx-5" height="150">
+                <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/612171547_1483719777094491_3690087535672141553_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s1200x1200&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEU-agtThQcR5J7iW_AfC4rs-mDZLCYVEKz6YNksJhUQqpWC6Eb4XwFWK4o3HrENL5oFbEOPXFM4WL5vEpA4xTT&_nc_ohc=R2k23rJKFqgQ7kNvwE_SWSr&_nc_oc=Ado0ZP2RCxZPsYMAERdzO9ru45qz0LhAI4HmatE4nae87hwaIvk3OAmsngY9kKQN-uo&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=O7166pEotbUu9aDdlU5zgw&_nc_ss=7b2a8&oh=00_AQFr2VipJfFpWybAwTnQRAZw_pjRMba5sDFIEGHKeNn4xA&oe=6A7358E6" alt="" class="mx-5" height="150">
+                <img src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/595449644_1460310509435418_8836521388614878857_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s1600x1200&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHzaoFlMkFZOhqPyxjuRNL4HDX-x3IsLGQcNf7HciwsZFEbqCviAbkAmRV0PQeh9UZS_Hj-vQyhK4gafdgnFJTp&_nc_ohc=t85YEC87eN4Q7kNvwEZjZc9&_nc_oc=AdoDNs_QhRtlBuAnxu8JfX4GOEvOHMUUMna5TP-B3WaYaeeQbsYC2BKreCa07vZ_cmQ&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=1PB0vq861eLx7AvP8H0UUA&_nc_ss=7b2a8&oh=00_AQERMTA04Zl0RJhjj736PDUzSPta7FTC3cA9_HH2j1xbAQ&oe=6A7370AB" alt="" class="mx-5" height="150">
+                <img src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/589607390_1447230637410072_5420365607155218936_n.jpg?stp=dst-jpg_tt6&cstp=mx1040x692&ctp=s1040x692&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEKNBpJck577-uybGiZMT30Gc037MVzKlwZzTfsxXMqXE_TunYuHxa8uaxnGBpFJH_FMg9US8KmP9aChWbrc7g6&_nc_ohc=C2M2c39OYiAQ7kNvwH_cXpu&_nc_oc=AdqsTaKbOGFyS03adbblYsPOp0fNaiRl8uR5a0mK6Kldl79wEbdN0BY5N6Rfz5sBCpo&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=xmtvMaPnq3hk2XuhyS4L8A&_nc_ss=7b2a8&oh=00_AQGY7nsZ4pAX4QtGmv0jMyQVkEg0PDt80JcIiTiWIYLkYQ&oe=6A7370E3" alt="" class="mx-5" height="150">
+                <img src="https://scontent-bog2-2.xx.fbcdn.net/v/t1.6435-9/46505801_10156776647172801_4654618636072255488_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x750&ctp=s1000x750&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHA1zYJE-_1mGJdUQeDMcIzfVWD8UHdn3N9VYPxQd2fcwZfRHJJ8Aftn5If0JHGk_Y_6LCCCEgM0GzctUp8RYtt&_nc_ohc=3HJf8b9FwmkQ7kNvwE0gVXw&_nc_oc=Ado-aRk1fGdgUCR4gGr80z9mtxyL8o0A8Ew3sg5b8jWvcP1d_o2fEAySQ7tNlwQC4vk&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=2alw64hgi9J1tyN9v2OGXA&_nc_ss=7b2a8&oh=00_AQEV7ZuqLZ1kmudGDwbQ95aGy6-YnUqW3ampLVIa7sNW8g&oe=6A9627D2" alt="" class="mx-5" height="150">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Seccion de mapa   -->
+<section id="ubicacion" class="py-5 bg-white opacity-100">
+  <div class="container">
+    <h2 class="text-center"><img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+          alt="La Poche Logo" width="40" height="32"> Ubicaciones</h2>
+    <div class="row">
+      <!-- Mapa Ubicacion -->
+  <div class="container">
+    <div class="row g-4">
+      <!-- Local  1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/494064913_1302237845242686_7001735355067557479_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s1000x1000&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGlpG-KCJVPne-qTJeOI0oC5bk9JWhgH5fluT0laGAflxW8yPpG4cMjy9zqqgkOef6M1p9HyveruMJa2_zxrX64&_nc_ohc=Vhephy3TSK0Q7kNvwHfih07&_nc_oc=AdonIKL6WVBVeFszNG1d3J9FCJrDaANQ9rRDDGxO0C-fpTGnZLORTqiC_npg-4p-6vY&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=kjw-_2cbaDWaaJwAdq05gg&_nc_ss=7b2a8&oh=00_AQGsDvJwpmcVjEwTXAgMreDKbJAJ3PLBCuNIfkvneNCnkw&oe=6A73549D" 
+              class="card-img-top" alt="Logo la poche" width="600" height="400">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+                  alt="Logo La Poche" width="30" height="24"> La Poche Carvajal
+            </h5>
+            <p class="card-text">Encentranos en Carvajal:</p>
+            <p class="card-text"> Cra 69 #31-19 sur, Bogotá.</p>
+            <a href="https://www.instagram.com/stories/highlights/18089697787849964/" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <!-- Local  2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn4SPmjgdyMXlhlQqe-ctq3fwlOKJpZrPdHhhjvBI6hx0D3HqH0KmopmButYjPVw3Co2Z7j6Qewrl3YLdi09DU7-MHwmIqC9iTASJ5fO0AjjMlPlHg27hn2xXZ0e9mYa5EAvQkLGUO3CVGF=w408-h544-k-no" 
+              class="card-img-top" alt="Logo la poche" width="600" height="400">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+                  alt="Logo La Poche" width="30" height="24"> La Poche Castilla
+            </h5>
+            <p class="card-text">Encentranos en Kennedy:</p>
+            <p class="card-text"> Cl 8 #n. 74-32, Bogotá.</p>
+            <a href="https://www.instagram.com/stories/highlights/18089697787849964/" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <!-- Local  3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.R7cdTmeO-dS95uzVyon2ugHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+              class="card-img-top" alt="Logo la poche" width="600" height="400">
+          <div class="card-body">
+            <h5 class="card-title">
+              <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+                  alt="Logo La Poche" width="30" height="24"> La Poche Salitre
+            </h5>
+            <p class="card-text">Encentranos en Teusaquillo:</p>
+            <p class="card-text"> Ac. 24 #51-40, Bogotá.</p>
+            <a href="https://www.instagram.com/stories/highlights/18089697787849964/" class="btn btn-primary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="mapas" class="py-5 bg-white">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Mapa 1 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.8983025179527!2d-74.13525899999999!3d4.612218700000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9eb75dabecd3%3A0xbbda412885d2672e!2zTGEgUG9jaMOp!5e0!3m2!1ses!2sco!4v1785567444344!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <div class="card-body text-center">
+                        <h5>La Poche Carvajal</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Mapa 2 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7533462962833!2d-74.1406588!3d4.638034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c1a09283af3%3A0x6d84511801317252!2sLa%20Poche%20Pescader%C3%ADa!5e0!3m2!1ses!2sco!4v1785567506005!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"> </iframe>
+                    <div class="card-body text-center">
+                        <h5>La Poche Castilla</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Mapa 3 -->
+            <div class="col-md-4">
+                <div class="card shadow h-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.751272661626!2d-74.0993274529175!3d4.638402254159189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bc325c2189b%3A0x5ca9df55b7a1d3aa!2sLA%20POCHE%20PESCADERIA!5e0!3m2!1ses!2sco!4v1785567566454!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    <div class="card-body text-center">
+                        <h5>La Poche Salitre</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Seccion de footer redes sociales -->
+<section>
+<footer id="social-icons" class="text-center bg-dark text-white py-2 rounded-4" >
+  <h3>
+    <img src="https://pescaderialapoche.com/wp-content/uploads/2024/04/La-Poche-Logo-Pri-300x240.png" 
+    alt="Logo La Poche" width="300" height="150">
+  </h3>
+  <p class="mb-2">&copy;2026 Creditos a las paginas oficiales de La pescaderia la Poche</p>
+  <div class="social-iconss">
+    <a href="https://www.facebook.com/pescaderialapoche" target="blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://pescaderialapoche.com/" target="blank"><i class="fa-brands fa-google"></i></a>
+    <a href="https://www.instagram.com/pescaderialapoche/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+</footer>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
