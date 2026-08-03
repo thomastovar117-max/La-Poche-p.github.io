@@ -43,7 +43,7 @@ body{
 
 .marquee-content{
     display:flex;
-    animation:marquee 30s linear infinite;
+    animation:marquee 15s linear infinite;
 }
 
 @keyframes marquee{
